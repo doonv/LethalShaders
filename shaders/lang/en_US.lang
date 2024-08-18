@@ -1,0 +1,61 @@
+option.SATURATION=Saturation
+option.SATURATION.comment=Adjusts how saturated the image is.
+value.SATURATION.1.0=100%
+value.SATURATION.0.9=90%
+value.SATURATION.0.8=80%
+value.SATURATION.0.7=70%
+value.SATURATION.0.6=60%
+value.SATURATION.0.5=50%
+value.SATURATION.0.4=40%
+value.SATURATION.0.3=30%
+value.SATURATION.0.2=20%
+value.SATURATION.0.1=10%
+value.SATURATION.0.0=0%
+
+option.POSTERIZATION_LEVELS=Posterization Levels
+option.POSTERIZATION_LEVELS.comment=Adjusts how many "levels" the posterization filter has.\nThe higher the level, the more colors are in the image.
+value.POSTERIZATION_LEVELS.-1=OFF
+
+option.PIXEL_SIZE=Pixel Size
+option.PIXEL_SIZE.comment=Adjusts the size of each pixel in the image.
+value.PIXEL_SIZE.1=Native
+
+option.PLAYER_LIGHT_INTENSITY=Player Light Radius
+option.PLAYER_LIGHT_INTENSITY.comment=Adjusts the radius of a dynamic light that the player emits
+value.PLAYER_LIGHT_INTENSITY.2.0=200%
+value.PLAYER_LIGHT_INTENSITY.1.9=190%
+value.PLAYER_LIGHT_INTENSITY.1.8=180%
+value.PLAYER_LIGHT_INTENSITY.1.7=170%
+value.PLAYER_LIGHT_INTENSITY.1.6=160%
+value.PLAYER_LIGHT_INTENSITY.1.5=150%
+value.PLAYER_LIGHT_INTENSITY.1.4=140%
+value.PLAYER_LIGHT_INTENSITY.1.3=130%
+value.PLAYER_LIGHT_INTENSITY.1.2=120%
+value.PLAYER_LIGHT_INTENSITY.1.1=110%
+value.PLAYER_LIGHT_INTENSITY.1.0=100%
+value.PLAYER_LIGHT_INTENSITY.0.9=90%
+value.PLAYER_LIGHT_INTENSITY.0.8=80%
+value.PLAYER_LIGHT_INTENSITY.0.7=70%
+value.PLAYER_LIGHT_INTENSITY.0.6=60%
+value.PLAYER_LIGHT_INTENSITY.0.5=50%
+value.PLAYER_LIGHT_INTENSITY.0.4=40%
+value.PLAYER_LIGHT_INTENSITY.0.3=30%
+value.PLAYER_LIGHT_INTENSITY.0.2=20%
+value.PLAYER_LIGHT_INTENSITY.0.1=10%
+value.PLAYER_LIGHT_INTENSITY.0.0=OFF
+
+option.OUTLINE_ENABLED=Outlines §e[*]
+option.OUTLINE_ENABLED.comment=Adds dark outlines around blocks\n§e[*]§f The outlines do not fade out properly in vanilla fog, you can use the custom fog feature to somewhat fix this.
+
+screen.CUSTOM_FOG=Custom Fog
+screen.CUSTOM_FOG.comment=Settings that relate to Lethal Shaders' custom fog implementation.\nWhile the shader does have the vanilla fog implementation, I couldn't get it to work with the outlines, so I added this custom fog to hide the broken outlines.
+option.CUSTOM_FOG_DENSITY_OVERWORLD=Overworld Density
+option.CUSTOM_FOG_DENSITY_OVERWORLD.comment=The intensity of the overworld fog.
+option.CUSTOM_FOG_DENSITY_NETHER=Nether Density
+option.CUSTOM_FOG_DENSITY_OVERWORLD.comment=The intensity of the nether fog.
+option.CUSTOM_FOG_DENSITY_END=End Density
+option.CUSTOM_FOG_DENSITY_OVERWORLD.comment=The intensity of the end fog.
+option.CUSTOM_FOG_DENSITY_WATER=Water Density
+option.CUSTOM_FOG_DENSITY_WATER.comment=The intensity of the fog while in water.
+option.CUSTOM_FOG_DENSITY_LAVA=Lava Density
+option.CUSTOM_FOG_DENSITY_LAVA.comment=The intensity of the fog while in lava.

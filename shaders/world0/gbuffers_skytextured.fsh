@@ -1,0 +1,1 @@
+#include "/common/gbuffers_skytextured.fsh"
